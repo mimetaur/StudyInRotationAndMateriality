@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 114423467181088458}
---- !u!114 &114306672652241688
+  m_Settings: {fileID: 0}
+--- !u!114 &114088370523314796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -21,11 +21,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
-  m_Name: ba84d3ec-2c65-4e50-b4e3-e2640d23d4db
+  m_Name: db01e88c-075d-4b03-a4a1-096660d22f90
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
-  m_Id: eaf933e7-2ecd-4f3b-b23c-3bd5cb0c28a4
-  m_OutputSize: 0
+  m_Id: 731d7cfb-7261-45e5-82ea-734eb73a12f3
+  m_OutputSize: 720
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 1
@@ -33,7 +33,21 @@ MonoBehaviour:
   m_FlipFinalOutput: 1
   m_AllowTransparency: 0
   m_CaptureUI: 0
---- !u!114 &114423467181088458
+--- !u!114 &114135976240571194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
+  m_Name: b1d0a401-0344-4c12-93f3-898c74428ddc
+  m_EditorClassIdentifier: 
+  m_DisplayName: Audio
+  m_Id: a554d5c6-ed1a-4660-ad8b-d6e5613cf756
+  m_PreserveAudio: 1
+--- !u!114 &114649818900443684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -47,39 +61,25 @@ MonoBehaviour:
   m_AssetID: 405836017783d48dea81370feab6ddbb
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
-  m_FrameRate: 29.970029830932617
-  m_FrameRateExact: 32
+  m_FrameRate: 30
+  m_FrameRateExact: 1
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
-  m_EndTime: 60
-  m_DurationMode: 3
+  m_EndTime: 1
+  m_DurationMode: 0
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: <prj>-<ts>-<res>.<ext>
+    m_Pattern: movie.<ext>
   m_DestinationPath:
     m_root: 1
     m_leaf: Recordings
   m_InputsSettings:
     m_InputsSettingsAssets:
-    - {fileID: 114306672652241688}
-    - {fileID: 114907725898090956}
+    - {fileID: 114088370523314796}
+    - {fileID: 114135976240571194}
     ownerRecorderSettingsAssetId: 405836017783d48dea81370feab6ddbb
   m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OutputFormat: 0
   m_AppendSuffix: 0
---- !u!114 &114907725898090956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
-  m_Name: 211726de-6b06-47c9-bfef-b7a9e85b918f
-  m_EditorClassIdentifier: 
-  m_DisplayName: Audio
-  m_Id: 1a0f6ac0-5e4a-4757-8046-77a4942ecfc3
-  m_PreserveAudio: 0

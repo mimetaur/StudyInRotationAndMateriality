@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class PlanetaryGravity : MonoBehaviour
 {
-
+    public GameObject originPlanet;
     public Transform source;
     public float gravityAmount = 9.8f;
 
     private Rigidbody myRigidbody;
 
+    private SoundManager soundManager;
+
     // Use this for initialization
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody>();
+        soundManager = originPlanet.GetComponent<SoundManager>();
     }
 
     // Update is called once per frame
@@ -34,4 +37,12 @@ public class PlanetaryGravity : MonoBehaviour
 
         myRigidbody.AddForce(gravityForce);
     }
+
+	private void OnCollisionEnter(Collision collision)
+	{
+        if (collision.gameObject.tag == "Ball") {
+            float force = Mathf.Clamp01(collision.relativeVelocity.magnitude);
+            soundManager.PlaySound(force);
+        }
+	}
 }
