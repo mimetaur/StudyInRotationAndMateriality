@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 0}
+  m_Settings: {fileID: 114649818900443684}
 --- !u!114 &114088370523314796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 731d7cfb-7261-45e5-82ea-734eb73a12f3
-  m_OutputSize: 720
+  m_OutputSize: 0
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 1
@@ -61,16 +61,16 @@ MonoBehaviour:
   m_AssetID: 405836017783d48dea81370feab6ddbb
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
-  m_FrameRate: 30
-  m_FrameRateExact: 1
+  m_FrameRate: 29.970029830932617
+  m_FrameRateExact: 32
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
-  m_EndTime: 1
-  m_DurationMode: 0
+  m_EndTime: 90
+  m_DurationMode: 3
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: movie.<ext>
+    m_Pattern: <prj>-<ts>-<res>.<ext>
   m_DestinationPath:
     m_root: 1
     m_leaf: Recordings
