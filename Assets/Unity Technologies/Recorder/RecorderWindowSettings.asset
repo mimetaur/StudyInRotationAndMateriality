@@ -25,7 +25,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 731d7cfb-7261-45e5-82ea-734eb73a12f3
-  m_OutputSize: 0
+  m_OutputSize: 1080
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 1
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
-  m_EndTime: 90
+  m_EndTime: 60
   m_DurationMode: 3
   m_SynchFrameRate: 1
   m_BaseFileName:
