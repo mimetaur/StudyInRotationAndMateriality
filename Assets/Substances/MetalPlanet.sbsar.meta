@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 22bd82e715c0142d4a55a3e41fd3571b
-timeCreated: 1519318728
-licenseType: Pro
 SubstanceImporter:
   externalObjects: {}
   serializedVersion: 5
@@ -134,8 +132,8 @@ SubstanceImporter:
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 2048
+      textureHeight: 2048
       textureFormat: 0
       loadingBehavior: 1
     - serializedVersion: 2
