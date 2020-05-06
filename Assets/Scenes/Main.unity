@@ -126,7 +126,6 @@ GameObject:
   - component: {fileID: 547769342}
   - component: {fileID: 547769346}
   - component: {fileID: 547769347}
-  - component: {fileID: 547769348}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -220,55 +219,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: e69985d76420245f19ccb4b1f6b46d2b, type: 2}
---- !u!114 &547769348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 547769341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c2e9627f4338354c85ed3ee0bf020c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SrcCamera: {fileID: 0}
-  GrabKey: 271
-  ResUpscale: 1
-  Blur: 1
-  AASamples: 8
-  FilterMode: 2
-  UseJitter: 0
-  SaveName: Grab
-  Format: dddd MMM dd yyyy HH_mm_ss
-  Enviro: 
-  Path: 
-  UseDOF: 0
-  focalDistance: 8
-  totalSegments: 8
-  sampleRadius: 1
-  CalcFromSize: 0
-  Dpi: 300
-  Width: 24
-  NumberOfGrabs: 8
-  EstimatedTime: 3.28
-  GrabWidthWillBe: 1028
-  GrabHeightWillBe: 869
-  UseCoroutine: 1
-  OutputFormat: 1
-  Quality: 75
-  uploadGrabs: 0
-  m_URL: 
-  sequenceGrab: 0
-  framerate: 30
-  grabTime: 5
-  CancelKey: 99
-  usemask: 1
-  alphamaskcol: {r: 0, g: 0, b: 0, a: 0}
-  alphagrab: 0
-  DoGrab: 0
-  CancelSeqGrab: 0
-  adddatetime: 1
-  grabFromStart: 0
 --- !u!1 &604812845
 GameObject:
   m_ObjectHideFlags: 0
