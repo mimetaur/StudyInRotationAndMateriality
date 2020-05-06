@@ -6,7 +6,6 @@
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
 
@@ -26,11 +25,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+.autosave/
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Bb]ackup/
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -61,6 +62,15 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.zip
 
 # Unity Video Recordings (default path)
 Recordings/
+
+# Cinema 4D cache files
+*.gil
+substance_cache/
+*.painter_lock
+
+# Adobe audition cache files
+*.pkf
