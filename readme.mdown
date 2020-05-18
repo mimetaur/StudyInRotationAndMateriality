@@ -1,3 +1,5 @@
-This study explores rotation, materiality (through procedural textures created in Substance Designer) and linear interpolation in Unity. [Watch on Vimeo](https://vimeo.com/415634920).
+This study explores rotation, materiality (through procedural textures created in Substance Designer) and linear interpolation in Unity.
+
+[![Study in Rotation and Materiality](thumbnail.jpg)](https://vimeo.com/415634920)
 
 It was remastered in 2020 using the high-definition render pipeline.
